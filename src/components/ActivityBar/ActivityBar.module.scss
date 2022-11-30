@@ -1,0 +1,9 @@
+.content {
+    display: flex;
+    width: 340px;
+}
+@media screen and (max-width: 1130px) {
+    .content {
+        display: none;
+    }
+}

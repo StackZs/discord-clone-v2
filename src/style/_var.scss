@@ -1,0 +1,12 @@
+:root {
+    --primary-white: white;
+    --primary-dark-a: #151618;
+    --primary-dark-b: #202123;
+    --primary-gray-a: #232426;
+    --primary-gray-b: #6C6D6F;
+}
+
+#root[theme="light"] {
+    --primary-text-color: white;
+    --background-secondary: var(--primary-gray-a);
+}

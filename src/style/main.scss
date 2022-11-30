@@ -1,0 +1,18 @@
+
+@import './fn.scss';
+@import './font.scss';
+@import './var.scss';
+
+html, body, #root {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color: var(--primary-dark-a);
+}
+
+*, *::after, *::before {
+    color: var(--primary-text-color);
+    box-sizing: border-box;
+}
